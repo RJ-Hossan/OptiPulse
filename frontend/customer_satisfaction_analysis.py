@@ -1,20 +1,12 @@
-import os
 import streamlit as st
 import joblib
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Get the base directory of the project
-base_dir = os.path.dirname(__file__)
-
-
-# Construct the relative paths to the model files
-best_model_path = os.path.join(base_dir, 'models', 'customer_satisfaction_model_LR_best.pkl')
-
 def run():
     # Load the saved model
-    model = joblib.load(best_model_path)
+    model = joblib.load('models\customer_satisfaction_model_LR_best.pkl')
 
     # Streamlit UI
     st.title("Telecom User Satisfaction Prediction")
