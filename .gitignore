@@ -14,3 +14,5 @@ venv/
 # Ignore IDE-specific files
 .idea/
 .vscode/
+
+.codegpt
