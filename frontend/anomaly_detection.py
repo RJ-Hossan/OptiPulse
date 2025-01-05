@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import joblib
 from sklearn.preprocessing import StandardScaler
+import matplotlib.pyplot as plt
 
 def run():
     # Load the best model and initialize scaler
@@ -35,6 +36,26 @@ def run():
         # Convert prediction to readable format
         anomaly_status = "Anomaly" if prediction[0] == -1 else "Normal"
         st.write(f"Prediction: **{anomaly_status}**")
+
+        # Visualize input data
+        st.subheader("Input Data Visualization")
+        feature_names = ["Latency", "Packet Loss Rate", "Signal Strength", "Interference Level", "Energy Efficiency"]
+        fig, ax = plt.subplots(figsize=(8, 5))
+        ax.bar(feature_names, input_data[0], color=["blue", "green", "red", "purple", "orange"])
+        ax.set_title("Input Feature Values")
+        ax.set_ylabel("Values")
+        ax.set_xlabel("Features")
+        st.pyplot(fig)
+
+        # Highlight anomaly status
+        st.subheader("Anomaly Status")
+        fig2, ax2 = plt.subplots(figsize=(6, 3))
+        ax2.bar(["Status"], [1 if anomaly_status == "Normal" else -1], color="green" if anomaly_status == "Normal" else "red")
+        ax2.set_ylim(-1.5, 1.5)
+        ax2.set_yticks([-1, 1])
+        ax2.set_yticklabels(["Anomaly", "Normal"])
+        ax2.set_title("Anomaly Detection Result")
+        st.pyplot(fig2)
 
 if __name__ == "__main__":
     run()
