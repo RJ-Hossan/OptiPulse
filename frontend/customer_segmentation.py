@@ -15,7 +15,7 @@ def run():
     internet_service = st.selectbox("Internet Service", ["DSL", "Fiber optic", "No"])
     streaming_tv = st.selectbox("Streaming TV", ["Yes", "No"])
     streaming_movies = st.selectbox("Streaming Movies", ["Yes", "No"])
-    user_satisfaction_index = st.slider("User Satisfaction Index", min_value=1, max_value=10, step=1)
+    user_satisfaction_index = st.slider("User Satisfaction Index", min_value=1.0, max_value=10.0, step=0.01)
     tenure = st.number_input("Tenure (Months)", min_value=0, step=1)
 
     # Convert inputs to a DataFrame
@@ -61,6 +61,6 @@ def run():
         # Display the cluster label
         st.subheader("Customer Segmentation Result")
         st.write(f"This customer belongs to Cluster {cluster_label}.")
-        
+
 if __name__ == "__main__":
     run()
