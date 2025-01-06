@@ -1,3 +1,4 @@
+setuptools==75.3.0
 absl-py==2.0.0
 altair==5.2.0
 anyio==4.2.0
@@ -190,5 +191,4 @@ wrapt==1.16.0
 xgboost==2.0.3
 zipp==3.17.0
 
-setuptools==75.3.0
-distruils
+
