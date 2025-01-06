@@ -4,10 +4,18 @@ import numpy as np
 import joblib
 from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
+import os
 
 def run():
-    # Load the best model and initialize scaler
-    model = joblib.load("models/anomaly_model_oneSVM.pkl")
+    # Get the base directory of the project
+    base_dir = os.path.dirname(__file__)
+
+    # Construct the relative paths to the model files
+    model_path = os.path.join(base_dir, '../models', 'anomaly_model_oneSVM.pkl')
+
+    # Load the saved model
+    model = joblib.load(model_path)
+
     scaler = StandardScaler()
 
     # Streamlit app title
