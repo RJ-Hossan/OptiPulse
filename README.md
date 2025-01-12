@@ -312,6 +312,26 @@ This task focuses on performing regression analysis to quantify factors influenc
 ![image](https://github.com/user-attachments/assets/aab24ab6-e3c5-4d1c-a75a-e18d4a555513)
 ![image](https://github.com/user-attachments/assets/b5e356b6-da2e-4d72-8b13-7b2f751bc3ff)
 
+### Task 3: Customer Segmentation Documentation
+
+#### Overview
+Customer segmentation aims to categorize customers into distinct groups based on shared characteristics. This strategic approach helps in personalizing marketing efforts, optimizing resource allocation, and enhancing overall customer satisfaction.
+
+![image](https://github.com/user-attachments/assets/e619452b-1d6f-4ac6-9bda-12575322e249)
+
+
+#### Objectives
+- Divide customers into behaviorally and demographically similar groups.
+- Tailor marketing and service approaches to meet the specific needs of each segment.
+
+#### Dataset
+- **Source**: Network parameters and customer demographic data from Robi Axiata.
+- **Features**: Usage patterns, payment history, service options, and customer demographics.
+- **Preprocessing Steps**:
+  - Handling missing values.
+  - Encoding categorical features.
+  - Scaling data to prepare for clustering.
+
 
 
 These documentation sections for Tasks 1,2 and 3 provide a framework for executing and assessing customer satisfaction analysis and segmentation strategies, respectively, using data-driven approaches at Robi Axiata.
