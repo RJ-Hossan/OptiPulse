@@ -278,6 +278,32 @@ This task focuses on performing regression analysis to quantify factors influenc
 - **Size**: 402,547 data points.
 
 
+#### Methodology
+1. **Data Preprocessing**:
+   - Handle missing values and outliers.
+   - Normalize or standardize numerical data to ensure model accuracy.
+
+2. **Feature Selection**:
+   - Utilize correlation analysis to identify significant predictors of satisfaction.
+
+3. **Model Development**:
+   - **Linear Regression**: Establishes a baseline for understanding linear relationships.
+   - **Decision Tree**: Captures non-linear patterns and interactions between variables.
+   - **Random Forest**: Enhances prediction accuracy through ensemble learning, reducing overfitting.
+   - **Gradient Boosting**: Focuses on correcting the errors of prior models, continuously improving performance.
+
+4. **Evaluation**:
+   - Use MAE (Mean Absolute Error), MSE (Mean Squared Error), and R2-score to assess model performance.
+   - Visualize results to interpret model effectiveness in predicting customer satisfaction.
+
+5. **Implementation**:
+   - Deploy the best-performing model to predict satisfaction levels for new customer data.
+   - Continuously update the model with new data to improve accuracy.
+
+
+![image](https://github.com/user-attachments/assets/9617533e-6585-4787-b3ee-24696cd1dc90)
+![Best Model on test set](https://github.com/user-attachments/assets/085ca57f-0104-4805-9670-750a77047913)
+
 
 
 
