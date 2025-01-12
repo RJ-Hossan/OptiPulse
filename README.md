@@ -332,6 +332,28 @@ Customer segmentation aims to categorize customers into distinct groups based on
   - Encoding categorical features.
   - Scaling data to prepare for clustering.
 
+#### Methodology
+1. **Exploratory Data Analysis**:
+   - Understand the underlying structure and relationships within the data.
+   - Identify anomalies or distinctive patterns across customer behaviors.
+
+2. **Clustering**:
+   - **K-Means Clustering**: Efficiently partitions customers into k distinct clusters based on feature similarity.
+   - **Silhouette Analysis**: Validates the appropriateness of the number of clusters.
+   - **PCA (Principal Component Analysis)**: Reduces dimensionality while preserving the most important variance features.
+
+3. **Evaluation**:
+   - Assess clusters' quality and distinctiveness using silhouette scores.
+   - Perform cluster profiling to understand the characteristics of each group.
+
+4. **Implementation**:
+   - Apply clustering insights to customize marketing strategies and service offerings.
+   - Monitor and adjust the segmentation strategy based on customer feedback and changing market conditions.
+
+#### Visualization
+- Distribution charts for each cluster.
+- Correlation heatmaps to understand feature interdependencies.
+- Silhouette analysis charts to evaluate clustering performance.
 
 
 These documentation sections for Tasks 1,2 and 3 provide a framework for executing and assessing customer satisfaction analysis and segmentation strategies, respectively, using data-driven approaches at Robi Axiata.
