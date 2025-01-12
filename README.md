@@ -304,7 +304,13 @@ This task focuses on performing regression analysis to quantify factors influenc
 ![image](https://github.com/user-attachments/assets/9617533e-6585-4787-b3ee-24696cd1dc90)
 ![Best Model on test set](https://github.com/user-attachments/assets/085ca57f-0104-4805-9670-750a77047913)
 
+#### Visualization
+- Distribution of customer satisfaction indices.
+- Pair plots of selected features against satisfaction scores.
+- Performance metrics visualization on validation and test datasets.
 
+![image](https://github.com/user-attachments/assets/aab24ab6-e3c5-4d1c-a75a-e18d4a555513)
+![image](https://github.com/user-attachments/assets/b5e356b6-da2e-4d72-8b13-7b2f751bc3ff)
 
 
 
