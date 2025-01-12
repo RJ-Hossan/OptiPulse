@@ -356,4 +356,11 @@ Customer segmentation aims to categorize customers into distinct groups based on
 - Silhouette analysis charts to evaluate clustering performance.
 
 
+
+![image](https://github.com/user-attachments/assets/d4f68c40-a811-40f2-835d-af92f8cc0d97)
+![image](https://github.com/user-attachments/assets/2185c5bb-2cd7-466b-ae91-b989ee1d479e)
+![image](https://github.com/user-attachments/assets/7ef09ceb-ec17-445d-bf98-7fa06c6aa451)
+![image](https://github.com/user-attachments/assets/e8c986f5-af94-4de3-b77f-6ab134f6d57c)
+![image](https://github.com/user-attachments/assets/3d4154e0-4cc3-4d50-be11-1500a318fffc)
+
 These documentation sections for Tasks 1,2 and 3 provide a framework for executing and assessing customer satisfaction analysis and segmentation strategies, respectively, using data-driven approaches at Robi Axiata.
