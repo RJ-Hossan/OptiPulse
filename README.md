@@ -14,6 +14,11 @@ Then select the folder and write following command in respective folder
 
 This documentation explains each step of the anomaly detection process, covering data preparation, processing, model training, and visualization.
 
+
+![image](https://github.com/user-attachments/assets/aaa2eda4-cd43-4f8e-8a55-2f4ce6360ef4)
+![image](https://github.com/user-attachments/assets/81dd13c7-e055-46d8-acb2-799276283a9b)
+
+
 ---
 
 ### 1. **Importing Necessary Libraries**
