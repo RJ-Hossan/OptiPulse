@@ -265,6 +265,8 @@ plt.show()
 #### Overview
 This task focuses on performing regression analysis to quantify factors influencing customer satisfaction. By understanding what drives satisfaction and dissatisfaction, Robi Axiata can implement targeted strategies to enhance customer experiences, reduce churn, and drive business growth.
 
+![image](https://github.com/user-attachments/assets/11116f6c-a648-4b3c-a63b-c22b42e4b4be)
+
 #### Objectives
 - Identify key factors affecting customer satisfaction.
 - Uncover drivers of dissatisfaction to mitigate negative experiences.
@@ -275,71 +277,9 @@ This task focuses on performing regression analysis to quantify factors influenc
 - **Features**: 35 features including service usage data, customer interactions, and feedback scores.
 - **Size**: 402,547 data points.
 
-#### Methodology
-1. **Data Preprocessing**:
-   - Handle missing values and outliers.
-   - Normalize or standardize numerical data to ensure model accuracy.
 
-2. **Feature Selection**:
-   - Utilize correlation analysis to identify significant predictors of satisfaction.
 
-3. **Model Development**:
-   - **Linear Regression**: Establishes a baseline for understanding linear relationships.
-   - **Decision Tree**: Captures non-linear patterns and interactions between variables.
-   - **Random Forest**: Enhances prediction accuracy through ensemble learning, reducing overfitting.
-   - **Gradient Boosting**: Focuses on correcting the errors of prior models, continuously improving performance.
 
-4. **Evaluation**:
-   - Use MAE (Mean Absolute Error), MSE (Mean Squared Error), and R2-score to assess model performance.
-   - Visualize results to interpret model effectiveness in predicting customer satisfaction.
 
-5. **Implementation**:
-   - Deploy the best-performing model to predict satisfaction levels for new customer data.
-   - Continuously update the model with new data to improve accuracy.
-
-#### Visualization
-- Distribution of customer satisfaction indices.
-- Pair plots of selected features against satisfaction scores.
-- Performance metrics visualization on validation and test datasets.
-
-### Task 3: Customer Segmentation Documentation
-
-#### Overview
-Customer segmentation aims to categorize customers into distinct groups based on shared characteristics. This strategic approach helps in personalizing marketing efforts, optimizing resource allocation, and enhancing overall customer satisfaction.
-
-#### Objectives
-- Divide customers into behaviorally and demographically similar groups.
-- Tailor marketing and service approaches to meet the specific needs of each segment.
-
-#### Dataset
-- **Source**: Network parameters and customer demographic data from Robi Axiata.
-- **Features**: Usage patterns, payment history, service options, and customer demographics.
-- **Preprocessing Steps**:
-  - Handling missing values.
-  - Encoding categorical features.
-  - Scaling data to prepare for clustering.
-
-#### Methodology
-1. **Exploratory Data Analysis**:
-   - Understand the underlying structure and relationships within the data.
-   - Identify anomalies or distinctive patterns across customer behaviors.
-
-2. **Clustering**:
-   - **K-Means Clustering**: Efficiently partitions customers into k distinct clusters based on feature similarity.
-   - **Silhouette Analysis**: Validates the appropriateness of the number of clusters.
-   - **PCA (Principal Component Analysis)**: Reduces dimensionality while preserving the most important variance features.
-
-3. **Evaluation**:
-   - Assess clusters' quality and distinctiveness using silhouette scores.
-   - Perform cluster profiling to understand the characteristics of each group.
-
-4. **Implementation**:
-   - Apply clustering insights to customize marketing strategies and service offerings.
-   - Monitor and adjust the segmentation strategy based on customer feedback and changing market conditions.
-
-#### Visualization
-- Distribution charts for each cluster.
-- Correlation heatmaps to understand feature interdependencies.
-- Silhouette analysis charts to evaluate clustering performance.
 
 These documentation sections for Tasks 1,2 and 3 provide a framework for executing and assessing customer satisfaction analysis and segmentation strategies, respectively, using data-driven approaches at Robi Axiata.
