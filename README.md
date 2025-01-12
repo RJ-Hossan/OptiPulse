@@ -1,6 +1,8 @@
 # OptiPulse
 Comprehensive Machine Learning Solutions for Customer Analytics, Network Optimization, Predictive Maintenance, and Business Intelligence.
 
+It offers comprehensive machine learning solutions focused on customer analytics, network optimization, predictive maintenance, and business intelligence in the telecommunications sector. Users can clone the repository and run the application locally to engage with tools designed for anomaly detection in telecom data, covering data preparation, processing, model training, and visualization. The documentation provides detailed guidance on importing necessary libraries, setting up the working directory, loading datasets, and the entire workflow for identifying and visualizing anomalies. This project is a robust resource for telecom operators to enhance their network reliability and customer service through advanced analytics.
+
 **Clone the repo in your local machine**
 `git clone https://github.com/RJ-Hossan/OptiPulse.git`
 
